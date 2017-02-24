@@ -1,6 +1,4 @@
-First-Project
+Responsive HTML5 Website
 =============
-
-Github first time
-
-It is good to have such kind of platform to use for a project.
+Only HTML5 and CSS
+Responsiveness using media query
