@@ -7,73 +7,155 @@
     <meta name ="viewport" content ="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name = "description" content ="Professional look web desing for companies and individulas" />
     <meta name ="keyword" content = "web design, mobile design, professional design">
+    <!-- ionic -->
+    <link rel = "stylesheet" href = "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type = "text/css"  />
   <!-- Bootstrap crossorigin -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel = "stylesheet" href = "./css/styles.css" type = "text/css" />
+
 </head>
   <header>
     <div class = "container">
-      <div id = "branding">
-          <h1><span class = "hightlight">ASY </span>Web Design</h1>
+      <div class = "row">
+        <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4">
+	         <img id="profileimg" src="./img/asabeneh.jpg">
+        </div>
+        <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h2>Asabeneh Yetayeh</h2>
+        </div>
+
+            <div class = "col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <h5>
+                Full Stack Web Developer and Teacher<br> Avaruuskatu 4C<br> 00210 ESPOO, Finland
+                <a href="mailto:asabeneh@gmail.com"></a><br>
+              </h5>
+            </div>
       </div>
-      <nav>
-        <ul>
-          <li class = "current"> <a href = "index.html">Home</a></li>
-          <li><a href = "about.html">About</a></a></li>
-          <li><a href = "services.html">Services</a></li>
-        </ul>
-      </nav>
-    </div>
+      <div class ="container">
+        <div class = "row">
+          <div class = "col-lg-4">
+            <div id = "branding">
+                <h1><a href = "index.html">Portfolio</a></h1>
+            </div>
+          </div>
+          <div class = "col-lg-8">
+            <nav>
+              <ul>
+                <li class = "current"> <a href = "index.html">Home</a></li>
+                <li><a href = "./html/Skills.html">Skills</a></li>
+                <li><a href = "./html/Projects.html">Projects</a></li>
+                <li><a href = "./html/Contacts.html"> Contact</a></li>
+              </ul>
+            </nav>
+
+          </div>
+
+        </div>
+        </div>
+      </div>
+
   </header>
-  <section id = "showcase">
-    <div class = "container">
-      <h1>Afordable Professional Web Design</h1>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum volutpat nulla ac aliquet. Duis dapibus nulla non odio viverra, vel condimentum tortor vestibulum.</p>
-    </div>
-  </section>
 
-  <section id = "newsletter">
+  <section id = "main">
     <div class = "container">
-      <h1> Subscribe To Our News Letter</h1>
-      <form action = "contact.php">
-        <input type = "email" placeholder="Enter e-mail--" />
-        <button type = "submit" class = "button_1">Subscribe</button>
+      <h2> Who am I ?</h2>
 
-      </form>
+    	<p>I am a web developer. I studied bachelor of Information Technology at Helsinki Metropolia University fo Applied Sciences. I specialied in software engineering.
+    		I am inclining to be a full-stack developer. So far, I have used languages such as Python, JavaScript, MeteorJs,ReactJS, NodeJS, MongoDB, Handlebar,Bootstrap, Foundation, EJS and other frameworks for different projects.
+    		In addition to Python and JavaScript, I also speak English and Amharic.
+
+    	</p>
+    	<p>For the last two years, I have been taking many courses from coursera and other online plateforms. I really love online courses.You may have a look some of the courses I have completed in the skills section of my profile.</p>
+
+
+    	<div id="timep">
+    		<span id="demo"> </span> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+
+    		<span id="hour"></span>
+
+    	</div>
     </div>
   </section>
   <section id = "boxes">
     <div class = "container">
       <div class = "box">
-        <img src = "./img/html-logo.png" alt = "HTML Logo" />
+        <!-- <img src = "./img/html-logo.png" alt = "HTML Logo" /> -->
+        <i class = "ion-social-html5 big-skill-icon"></i>
         <h3>HTML5 Markup</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum volutpat nulla ac aliquet. Duis dapibus nulla non odio viverra, vel condimentum tortor vestibulum.</p>
+        <p> HTML5 is the best markup versio of all time.</p>
       </div>
 
       <div class = "box">
-        <img src = "./img/css-logo.png" alt = "CSS Logo" />
-        <h3>CSS3 Styling</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum volutpat nulla ac aliquet. Duis dapibus nulla non odio viverra, vel condimentum tortor vestibulum.</p>
+        <!-- <img src = "./img/css-logo.png" alt = "CSS Logo" /> -->
+        <i class = "ion-social-css3 big-skill-icon"></i>
+
+        <h3>CSS3</h3>
+        <p> CSS3 changes the look and feel of every applications</p>
       </div>
 
       <div class = "box">
-        <img src = "./img/graphics-logo.png" alt = "Graphics Logo" />
-        <h3>Graphics Design</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum volutpat nulla ac aliquet. Duis dapibus nulla non odio viverra, vel condimentum tortor vestibulum.</p>
+        <!-- <img src = "./img/graphics-logo.png" alt = "Graphics Logo" /> -->
+        <i class = "ion-social-javascript big-skill-icon"></i>
+
+
+        <h3>JavaScript</h3>
+        <p> JavaScript gives life to your web application. It is also the defualt language of the browser.</p>
       </div>
+      <div class = "box">
+        <i class = "ion-social-angular big-skill-icon"></i>
+
+
+        <h3>AngularJS</h3>
+        <p> Angular is one of the best JavaScript framework</p>
+      </div>
+      <div class = "box">
+
+        <i class = "ion-social-nodejs big-skill-icon"></i>
+
+        <h3>NodeJS</h3>
+        <p>The best Javascript server side technology</p>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class = "container">
+      <div class ="row">
+      <div class ="col-sm-12 col-md-12 col-lg-12">
+        <h2 class ="text-center text-white"> Full Stack Web Developer </h2>
       </div>
     </div>
 
-  </section>
+    <div class ="row">
+      <div class ="col-sm-12 col-md-12 col-lg-12">
+          <ul id ="social-media">
+            <li id = "linkein" class = "icon big-icon"><a href = "https://www.linkedin.com/in/asabeneh/"><i class = "ion-social-linkedin"></i></a></li>
+            <li id ="googleplus" class = "icon big-icon"><a href = "https://www.youtube.com/channel/UCpnSc8NTyJfzDgqyMDxz9Cw"><i class ="ion-social-googleplus"></i></a></li>
+            <li id ="twitter" class = "icon big-icon"><a href = "https://twitter.com/"><i class = "ion-social-twitter"></i></a></li>
+            <li id ="github" class = "icon big-icon"><a href = "https://github.com/Asabeneh"><i class = "ion-social-github"></i></li></a></li>
+          </ul>
+      </div>
+      </div>
+
+    <div class ="row">
+      <div class ="col-sm-12 col-md-12 col-lg-12">
+        <p class ="text-center">
+          <span class ="text-center" id ="copyRight"> Created By Asabeneh &#169; 2017</span>
+        </p>
+
+      </div>
+
+    </div>
+
+    </div>
 
 
-
-  <footer>
-Copyright 2017
   </footer>
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
-      <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
